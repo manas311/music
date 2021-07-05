@@ -1,7 +1,7 @@
 const music = [{
     musicName: "Saza E Maut",
     artistName: "Raftaar x KR$NA",
-    musicSrc: "https://www.youtube.com/watch?v=o907r6NsK9s.mp3",
+    musicSrc: "https://www.youtube.com/watch?v=o907r6NsK9s",
     musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
     liked: true,
   },
