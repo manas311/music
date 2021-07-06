@@ -311,6 +311,11 @@ img{
     margin: 0 70px
 }
 
+.music-controls i#mute-btn{
+
+    margin-right: 50px;
+}
+
 .code-with-love{
     position: absolute;
     right: 30px;

@@ -77,6 +77,7 @@ const music = [{
 
 let musicIndex = 0;
 const audio = document.querySelector("#audio");
+const muteBtn = document.querySelector("#mute-btn");
 const prevBtn = document.querySelector("#backward-btn");
 const playBtn = document.querySelector("#play-pause-btn");
 const nextBtn = document.querySelector("#forward-btn");
@@ -143,6 +144,10 @@ function currentMusic(index) {
   });
 }
 
+muteBtn.addEventListener('click', () => {
+    muteMusic();
+});
+
 playBtn.addEventListener('click', () => {
   isPlaying ? pauseMusic() : playMusic();
 });
@@ -161,6 +166,19 @@ prevBtn.addEventListener("click", () => {
 
 currentMusic(musicIndex);
 
+function muteMusic() {
+  if (audio.muted == false)
+  {
+    audio.muted = true;
+    muteBtn.classList.replace("fa-volume-up", "fa-volume-off");
+  }
+  else
+  {
+    audio.muted = false;
+    muteBtn.classList.replace("fa-volume-off", "fa-volume-up");
+  }
+}
+// <i class="fa fa-volume-up" aria-hidden="true"></i>
 function playMusic() {
   isPlaying = true;
   audio.play();
