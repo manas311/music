@@ -308,11 +308,14 @@ img{
 .music-controls i#play-pause-btn{
     font-size: 60px;
     color: #ff2828;
-    margin: 0 70px
+    margin: 0 50px
 }
 
 .music-controls i#mute-btn{
+    margin-right: 50px;
+}
 
+.music-controls i#shuffle-btn{
     margin-right: 50px;
 }
 
@@ -328,4 +331,8 @@ img{
 
 .code-with-love i.fa-heart , .code-with-love span{
     color: #ff2828;
+}
+
+.colorChanger{
+  color: dodgerblue;
 }

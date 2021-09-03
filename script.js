@@ -1,16 +1,27 @@
+// {
+//   musicName: "",
+//   artistName: "",
+//   musicSrc: "songs/.mp3",
+//   musicPoster: "",
+// },
+
 const music = [{
+    musicName: "Peaches",
+    artistName: "Justin Bieber",
+    musicSrc: "songs/peaches.mp3",
+    musicPoster: "http://a10.gaanacdn.com/images/albums/47/4007647/crop_480x480_1616135425_4007647.jpg",
+  },
+  {
     musicName: "Bad Guy",
     artistName: "Billie Eilish",
     musicSrc: "songs/bad-guy.mp3",
     musicPoster: "https://i1.sndcdn.com/artworks-000525821970-fw5emb-t500x500.jpg",
-    liked: true,
   },
   {
     musicName: "Fairy Tale",
     artistName: "Alexander Rybak",
     musicSrc: "songs/fairytale.mp3",
     musicPoster: "https://i.ytimg.com/vi/edzt82nC45k/sddefault.jpg",
-    liked: false,
   },
   {
     musicName: "Arcade",
@@ -97,12 +108,6 @@ const music = [{
     musicPoster: "https://f4.bcbits.com/img/a2502581702_10.jpg",
   },
   {
-    musicName: "Champion",
-    artistName: "DJ Bravo",
-    musicSrc: "songs/champion.mp3",
-    musicPoster: "https://a10.gaanacdn.com/gn_img/albums/z8k3yd1Krx/8k3yVqmEWr/size_xxl.webp",
-  },
-  {
     musicName: "NUMB",
     artistName: "Linkin Park",
     musicSrc: "songs/numb.mp3",
@@ -114,6 +119,132 @@ const music = [{
     musicSrc: "songs/godzilla.mp3",
     musicPoster: "https://i.ytimg.com/vi/9XvXF1LrWgA/maxresdefault.jpg",
   },
+  {
+    musicName: "Levitating",
+    artistName: "Dua Lipa",
+    musicSrc: "songs/levitating.mp3",
+    musicPoster: "https://media.pitchfork.com/photos/5fbb2027ac8274a76125c83d/1:1/w_2324,h_2324,c_limit/dua-lipa.jpg",
+  },
+  {
+    musicName: "MONTERO(Call Me By Your Name)",
+    artistName: "Lil Nas X",
+    musicSrc: "songs/montero.mp3",
+    musicPoster: "https://s3.amazonaws.com/media.thecrimson.com/photos/2021/04/12/201614_1349846.jpg",
+  },
+  {
+    musicName: "Astronaut in The Ocean",
+    artistName: "Masked Wolf",
+    musicSrc: "songs/astronaut.mp3",
+    musicPoster: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/8e/d0/dd8ed098-3755-1c8c-6f88-c8c6407309c0/075679779922.jpg/400x400bb.jpeg",
+  },
+  {
+    musicName: "Girls Like You",
+    artistName: "Maroon 5",
+    musicSrc: "songs/girlslikeyou.mp3",
+    musicPoster: "https://upload.wikimedia.org/wikipedia/en/5/57/Girls_like_You_cover.png",
+  },
+  {
+    musicName: "Build a B*tch",
+    artistName: "Bella Poarch",
+    musicSrc: "songs/buildab.mp3",
+    musicPoster: "https://www.highclap.com/images/build-a-bitch.jpg",
+  },
+  {
+    musicName: "Rockstar",
+    artistName: "Post Malone",
+    musicSrc: "songs/rockstar.mp3",
+    musicPoster: "https://i.ytimg.com/vi/louoxiUMBc0/maxresdefault.jpg",
+  },
+  {
+    musicName: "Black Catcher",
+    artistName: "Vickeblanka",
+    musicSrc: "songs/blackCatcher.mp3",
+    musicPoster: "https://i.scdn.co/image/ab67616d0000b273681d833403bbf4404b4adb9b",
+  },
+  {
+    musicName: "Black Rover",
+    artistName: "Vickeblanka",
+    musicSrc: "songs/blackRover.mp3",
+    musicPoster: "https://cdns-images.dzcdn.net/images/cover/2a462b6e9e9dcd124c794f3603b71a77/500x500.jpg",
+  },
+  {
+    musicName: "Kaikai Kitan",
+    artistName: "Eve",
+    musicSrc: "songs/kaikaiKitan.mp3",
+    musicPoster: "https://i1.sndcdn.com/artworks-88C70vpKYuxK7vjI-BlMDrA-t500x500.jpg",
+  },
+  {
+    musicName: "Contradiction",
+    artistName: "KSUKE feat. Tyler Carter",
+    musicSrc: "songs/contradiction.mp3",
+    musicPoster: "https://i.ytimg.com/vi/eRJyYfAq2tk/maxresdefault.jpg",
+  },
+  {
+    musicName: "A Cruel Angel's Thesis",
+    artistName: "Yoko Takahashi",
+    musicSrc: "songs/thesis.mp3",
+    musicPoster: "https://m.media-amazon.com/images/I/81krrNS2CrL._SS500_.jpg",
+  },
+  {
+    musicName: "Unravel",
+    artistName: "Per Fredrik Åsly",
+    musicSrc: "songs/unravel.mp3",
+    musicPoster: "https://static.wikia.nocookie.net/tokyoghoul/images/f/f8/CD_Unravel_03.png/revision/latest?cb=20161217105315",
+  },
+  {
+    musicName: "Bloody Stream",
+    artistName: "Kazusō Oda, Coda",
+    musicSrc: "songs/bloodystream.mp3",
+    musicPoster: "https://i1.sndcdn.com/artworks-QpAKyWOr6CkIHOiR-aevCqA-t500x500.png",
+  },
+  {
+    musicName: "Guren no Yumiya",
+    artistName: "Linked Horizon",
+    musicSrc: "songs/linkedhorizon.mp3",
+    musicPoster: "https://i1.sndcdn.com/artworks-000070696531-d49e9t-t500x500.jpg",
+  },
+  {
+    musicName: "Fly High",
+    artistName: "Ayumi Hamasaki",
+    musicSrc: "songs/flyhigh.mp3",
+    musicPoster: "https://f4.bcbits.com/img/a2229921603_10.jpg",
+  },
+  {
+    musicName: "Silhouette",
+    artistName: "Kana-Boon",
+    musicSrc: "songs/silhouette.mp3",
+    musicPoster: "https://2.bp.blogspot.com/-X_GSCd7F5BY/VdblfDc2zLI/AAAAAAAAFRU/R_AXNvoXGbc/s1600/silhouette%2Bnaruto.jpg",
+  },
+  {
+    musicName: "Gurenge",
+    artistName: "LiSA",
+    musicSrc: "songs/gurenge.mp3",
+    musicPoster: "https://i1.sndcdn.com/artworks-pbNfELP9BRmffgsB-Vhj5hw-t500x500.jpg",
+  },
+  {
+    musicName: "Departure",
+    artistName: "Masatoshi Ono",
+    musicSrc: "songs/departure.mp3",
+    musicPoster: "https://1.bp.blogspot.com/-mlBXDtbo3E0/YGGEypMaP7I/AAAAAAAAJlE/_yUQU-UVw1gyw2v_PZQCzbxEY3ORMQ_PACLcBGAsYHQ/s0/Hunter%2BX%2BHunter.webp",
+  },
+  {
+    musicName: "Sign",
+    artistName: "FLOW",
+    musicSrc: "songs/sign.mp3",
+    musicPoster: "https://m.media-amazon.com/images/I/71REcD6JxEL._SS500_.jpg",
+  },
+  {
+    musicName: "Shinzou no Sasageyo",
+    artistName: "Linked Horizon",
+    musicSrc: "songs/sasageyo.mp3",
+    musicPoster: "https://i.ytimg.com/vi/BhipGqSZEB0/maxresdefault.jpg",
+  },
+  {
+    musicName: "The World",
+    artistName: "nightmare",
+    musicSrc: "songs/world.mp3",
+    musicPoster: "https://images-na.ssl-images-amazon.com/images/I/81AUFrX5CVL._RI_.jpg",
+  },
 ];
 
 
@@ -122,6 +253,7 @@ const audio = document.querySelector("#audio");
 const muteBtn = document.querySelector("#mute-btn");
 const prevBtn = document.querySelector("#backward-btn");
 const playBtn = document.querySelector("#play-pause-btn");
+const shuffleBtn = document.querySelector("#shuffle-btn")
 const nextBtn = document.querySelector("#forward-btn");
 const musicName = document.querySelector("#song-name");
 const artistName = document.querySelector("#artist-name");
@@ -186,6 +318,45 @@ function currentMusic(index) {
   });
 }
 
+
+document.addEventListener("keypress", function(event) {
+  doTask(event.key);
+});
+
+
+function doTask(key) {
+
+  switch (key) {
+    case "s":
+    randomMusic();
+      break;
+
+    case "m":
+    muteMusic();
+      break;
+
+    case " ":
+    isPlaying ? pauseMusic() : playMusic();
+      break;
+
+    case "a":
+    musicIndex = musicIndex - 1;
+    currentMusic(musicIndex);
+    playMusic();
+      break;
+
+    case "d":
+    musicIndex = musicIndex + 1;
+    currentMusic(musicIndex);
+    playMusic();
+      break;
+  }
+}
+
+shuffleBtn.addEventListener('click', () => {
+  randomMusic();
+});
+
 muteBtn.addEventListener('click', () => {
     muteMusic();
 });
@@ -219,6 +390,9 @@ function muteMusic() {
     audio.muted = false;
     muteBtn.classList.replace("fa-volume-off", "fa-volume-up");
   }
+}
+function randomMusic() {
+  document.querySelector('#shuffle-btn').classList.toggle('colorChanger');
 }
 // <i class="fa fa-volume-up" aria-hidden="true"></i>
 function playMusic() {
